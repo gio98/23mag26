@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buon San Valentino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="hero">
+    <div class="glow glow-left" aria-hidden="true"></div>
+    <div class="glow glow-right" aria-hidden="true"></div>
+
+    <section class="card">
+      <h1 style="    font-size: 2.7rem;
+    width: 31rem;
+    position: absolute;
+    left: -4.5rem;
+    top: 1rem;">Feliz 4 anos y <br> 7 meses juntos!</h1>
+      <div style="    position: absolute;
+    left: 1rem;
+    top: 1rem;">
+        <img class="andrea" src="Andrea-17-05-2026.png" alt="">
+        <img class="piu" src="-17-05-2026.png" alt="">
+        <img class="giorgio" src="Giorgio-17-05-2026.png" alt="">
+        <img style="position: absolute;
+    z-index: 100;
+    width: 7.6rem;
+    top: 22rem;
+    left: 6rem;" src="infinito.png">
+        <img class="heart" src="heart.png" alt="">
+      </div>
+      
+     <div class="bottom"> 
+       <button class="love-button" type="button" data-open-modal>
+        Abrir la letra!
+       </button>
+       <h1 class="subtitle" style="position: absolute;
+    top: 11rem;
+    left: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;">Ti amo immensamente <br> mi compagnera di vita!</h1>
+    </div>
+    </section>
+  </main>
+
+  <div class="modal hidden" data-modal aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <section
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="letter-title"
+    >
+      <button class="close-button" type="button" aria-label="Chiudi lettera" data-close-modal>
+        ×
+      </button>
+
+     
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
