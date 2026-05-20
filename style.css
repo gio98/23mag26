@@ -22,7 +22,10 @@ body {
   padding: 24px;
   overflow: hidden;
 }
-
+.imgmsc {
+  width: 18rem;
+    height: 15rem;
+}
 .card {
   position: relative;
   z-index: 1;
